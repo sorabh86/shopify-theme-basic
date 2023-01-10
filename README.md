@@ -16,13 +16,13 @@ choco install themekit
 ## Steps to setup local environment
 1. Create your local theme folder
 2. create following folder in theme folder
-    * assets
-    * config
-    * layout
-    * locales
-    * sections
-    * snippets
-    * templates
+    * assets : image, css, javascript, other media files.
+    * config : Settings and Configuration
+    * layout : This folder contain 
+    * locales : Language translations.
+    * sections : You can define various block elements
+    * snippets : reusable code snippets.
+    * templates : This folder contain page content 
 3. add file in folder layout/theme.liquid
 ```html
 <html>
